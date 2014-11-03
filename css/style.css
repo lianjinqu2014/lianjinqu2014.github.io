@@ -2,30 +2,37 @@ html *, body *{
   font-family: 微软雅黑 !important;
 }
 
+.section {
+  padding: 0px 15%;
+}
+
 #index {
-  background: none repeat scroll 0 0 #0093cd;
+  background: url(/img/bg-index.png) center center no-repeat;
+  background-size: 100%;
   color: white;
   text-align: center;
 }
 
-#index h1 {
-  font-size: 100px;
-  font-weight: bold;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  letter-spacing: 20px;
-  margin: 0;
+#index-more {
+  height: 50px;
 }
 
-#index h2 {
-  font-size: 30px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  letter-spacing: 2px;
-  opacity: 0.5;
-  margin: 0;
+.index-more-arrow {
+  height: 10px;
+  margin: 10px;
+}
+
+#index-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#index-more-box {
 }
 
 #service {
-  padding: 10% 15% 0;
+  margin: 20px 0;
   color: black;
   font-size: 16px;
   font-weight: bold;
@@ -39,15 +46,46 @@ html *, body *{
 
 #intro {
   /*background: none repeat scroll 0 0 #323539;*/
-  padding: 0px 50px;
 }
 
-#subscription {
-  background-color: #E7E7E7;
+#contact {
+  background: url(/img/bg-contact.png) center center no-repeat;
+  background-size: 100%;
 }
 
-#contactinfo {
-  padding: 30px 50px;
-  background-color: #FFF;
+#contact-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 5% 10%;
+  border-bottom: 30px solid rgba(56, 184, 245, 0.6);
 }
 
+#contact-title {
+  height: 70px;
+  margin-top: 5%;
+}
+
+#contact-detail {
+  color: #070707;
+  font-size: 20px;
+  /*text-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);*/
+  margin-top: 5%;
+}
+
+#contact-seperate-line {
+  background-color: rgba(56, 184, 245, 0.6);
+  height: 100px;
+  width: 2px;
+}
+
+#subscription input {
+  width: 80%;
+  padding: 10px;
+}
+
+#subscription button {
+  color: white;
+  background-color: #38b8f5;
+  border: 0;
+  padding: 10px;
+  width: 85%;
+}
