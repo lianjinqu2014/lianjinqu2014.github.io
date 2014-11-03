@@ -17,5 +17,11 @@ $(document).ready(function() {
       $('#index-title').addClass('appear');
       $('#index-wave').addClass('appear');
     },
+
+    afterLoad: function(anchorLink, index) {
+      if (index == 2) {
+        $('#contact-detail').addClass('appear');
+      }
+    }
   });
 });
