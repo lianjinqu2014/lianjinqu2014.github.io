@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  var indexTimer = null;
+
   $('#main').fullpage({
     responsive: 1,
     resize: true,
@@ -11,5 +13,6 @@ $(document).ready(function() {
 
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
+
   });
 });

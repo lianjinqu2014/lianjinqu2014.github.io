@@ -13,13 +13,23 @@ html *, body *{
   text-align: center;
 }
 
-#index-more {
-  height: 50px;
+#index-title {
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
 
-.index-more-arrow {
-  height: 10px;
-  margin: 10px;
+#index-more {
+  height: 30px;
+}
+
+#index-more-arrow {
+  height: 15px;
+  width: 30px;
+  margin: 12px;
+ /* animation: 1.75s ease-in-out 0s normal none infinite running mymove;*/
+  background: url(/img/index-arrow-level3.png) center center no-repeat;
+  background-size: 100%;
 }
 
 #index-wave {
@@ -29,6 +39,10 @@ html *, body *{
 }
 
 #index-more-box {
+  position: fixed;
+  bottom: 5%;
+  margin: 0 auto;
+  width: 70%;
 }
 
 #service {
