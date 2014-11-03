@@ -1,7 +1,6 @@
 $(document).ready(function() {
-  var indexTimer = null;
-
   $('#main').fullpage({
+
     responsive: 1,
     resize: true,
 
@@ -14,5 +13,9 @@ $(document).ready(function() {
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
 
+    afterRender: function() {
+      $('#index-title').addClass('appear');
+      $('#index-wave').addClass('appear');
+    },
   });
 });
