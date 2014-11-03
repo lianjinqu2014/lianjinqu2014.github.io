@@ -18,6 +18,8 @@ html *, body *{
   top: 10%;
   right: 0px;
   transition: all 0.7s ease-out 0.5s;
+  -moz-transition: all 0.7s ease-out 0.5s;
+  -webkit-transition: all 0.7s ease-out 0.5s;
 }
 
 #index-title.appear {
@@ -42,6 +44,8 @@ html *, body *{
   bottom: -10%;
   left: -10%;
   transition: all 0.7s ease-out 0.5s;
+  -moz-transition: all 0.7s ease-out 0.5s;
+  -webkit-transition: all 0.7s ease-out 0.5s;
 }
 
 #index-wave.appear {
@@ -99,6 +103,8 @@ html *, body *{
 #contact-detail.appear {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
 }
 
 #contact-seperate-line {
