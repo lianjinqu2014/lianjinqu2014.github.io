@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $('#main').fullpage({
-    anchors: ['index', 'intro', 'subscription', 'contact'],
     responsive: 1,
     resize: true,
     verticalCentered: true,

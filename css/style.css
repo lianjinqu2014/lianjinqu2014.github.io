@@ -1,0 +1,53 @@
+html *, body *{
+  font-family: 微软雅黑 !important;
+}
+
+#index {
+  background: none repeat scroll 0 0 #0093cd;
+  color: white;
+  text-align: center;
+}
+
+#index h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 20px;
+  margin: 0;
+}
+
+#index h2 {
+  font-size: 30px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+#service {
+  padding: 10% 15% 0;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+#service img {
+  width: 80px;
+  height: 80px;
+}
+
+#intro {
+  /*background: none repeat scroll 0 0 #323539;*/
+  padding: 0px 50px;
+}
+
+#subscription {
+  background-color: #E7E7E7;
+}
+
+#contactinfo {
+  padding: 30px 50px;
+  background-color: #FFF;
+}
+
