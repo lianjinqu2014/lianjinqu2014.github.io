@@ -17,8 +17,23 @@ $(document).ready(function() {
     },
 
     afterLoad: function(anchorLink, index) {
-      if (index == 2) {
-        $('#contact-box').addClass('appear');
+      switch(index) {
+        case 3: {
+          $('#contact-box').addClass('appear');
+          break;
+        }
+
+        case 2: {
+          $('.service-ability').css({
+            "-webkit-transform":"translate(15px,15px)",
+            "-ms-transform":"translate(15px,15px)",
+            "transform":"translate(15px,15px)",
+          });
+          break;
+        }
+
+        default:
+          break;
       }
     }
   });
