@@ -1,5 +1,5 @@
 html *, body *{
-  font-family: "Hiragino Sans GB" !important;
+  font-family: "微软雅黑", "Hiragino Sans GB" !important;
 }
 
 .section {
@@ -93,28 +93,24 @@ html *, body *{
 
 #contact-box {
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 0 5% 10%;
+  padding: 5% 5% 10%;
   border-bottom: 30px solid rgba(56, 184, 245, 0.6);
-}
-
-#contact-title {
-  height: 70px;
-  margin-top: 5%;
-}
-
-#contact-detail {
-  color: #070707;
-  font-size: 20px;
-  /*text-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);*/
-  margin-top: 5%;
   opacity: 0;
+  font-size: 20px;
+  color: #FFF;
+  text-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
 }
 
-#contact-detail.appear {
+#contact-box.appear {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+#contact-title {
+  height: 70px;
+  margin-bottom: 5%;
 }
 
 #contact-seperate-line {

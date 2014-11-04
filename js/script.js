@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     afterLoad: function(anchorLink, index) {
       if (index == 2) {
-        $('#contact-detail').addClass('appear');
+        $('#contact-box').addClass('appear');
       }
     }
   });
