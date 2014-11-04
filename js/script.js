@@ -2,17 +2,16 @@ $(document).ready(function() {
   $('#main').fullpage({
     anchors: ['index', 'contact'],
 
+    /*
     responsive: 1,
     resize: true,
 
     css3: true,
     keyboardScrolling: true,
+    */
 
     navigation: true,
     navigationPosition: 'right',
-
-    slidesNavigation: true,
-    slidesNavPosition: 'bottom',
 
     afterRender: function() {
       $('#index-title').addClass('appear');
