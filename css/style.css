@@ -30,13 +30,11 @@ html *, body *{
   height: 30px;
 }
 
-#index-more-arrow {
+.index-more-arrow {
   height: 15px;
   width: 30px;
-  margin: 12px;
- /* animation: 1.75s ease-in-out 0s normal none infinite running mymove;*/
-  background: url(/img/index-arrow-level3.png) center center no-repeat;
-  background-size: 100%;
+  margin: 3px;
+  width: 100%;
 }
 
 #index-wave {
@@ -53,11 +51,23 @@ html *, body *{
 }
 
 #index-more-box {
+  animation: 0.35s ease 0s alternate none infinite running bounce;
   position: fixed;
-  bottom: 5%;
+  bottom: 20px;
   margin: 0 auto;
   width: 70%;
 }
+
+
+@keyframes bounce {
+  0% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 30px;
+  }
+}
+
 
 #service {
   margin: 20px 0;

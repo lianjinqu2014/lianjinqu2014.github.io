@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('#main').fullpage({
+    anchors: ['index', 'contact'],
 
     responsive: 1,
     resize: true,

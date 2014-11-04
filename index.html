@@ -10,6 +10,21 @@
     <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/jquery-fullPage/1.7.5/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/pure/0.5.0/pure-min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+
+    <!-- This following line is needed in case of using the default easing option or when using another
+     one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+    <script type="text/javascript" src="http://cdn.staticfile.org/jQuery-slimScroll/1.3.1/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery-fullPage/1.7.5/jquery.fullPage.min.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
   </head>
   <body>
     <div id="main">
@@ -20,10 +35,14 @@
           <p><img src="img/index-subtitle.png" /></p>
         </div>
 
-        <!--div id="index-more-box">
-          <img id="index-more" src="img/index-more-label.png"/>
-          <p><a id="index-more-arrow" href="#contact" /></p>
-        </div-->
+        <div id="index-more-box">
+          <a href="#contact">
+            <p><img id="index-more" src="img/index-more-label.png"/></p>
+            <p class="index-more-arrow" ><img src="img/index-arrow-level1.png" /></p>
+            <p class="index-more-arrow" ><img src="img/index-arrow-level2.png" /></p>
+            <p class="index-more-arrow" ><img src="img/index-arrow-level3.png" /></p>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -62,19 +81,5 @@
 
     </div>
   </div>
-
-
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
-
-  <!-- This following line is needed in case of using the default easing option or when using another
-     one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-  <!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
-  <!--script type="text/javascript" src="http://cdn.staticfile.org/jQuery-slimScroll/1.3.1/jquery.slimscroll.min.js"></script-->
-
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery-fullPage/1.7.5/jquery.fullPage.min.js"></script>
-
-  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
