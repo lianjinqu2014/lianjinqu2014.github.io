@@ -1,14 +1,12 @@
 $(document).ready(function() {
   $('#main').fullpage({
-    anchors: ['index', 'contact'],
+    anchors: ['index', 'service', 'contact'],
 
-    /*
     responsive: 1,
     resize: true,
 
     css3: true,
     keyboardScrolling: true,
-    */
 
     navigation: true,
     navigationPosition: 'right',

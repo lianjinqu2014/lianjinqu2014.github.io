@@ -6,8 +6,19 @@ html *, body *{
   padding: 0px 15%;
 }
 
+.greybox {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5% 5% 10%;
+  font-size: 20px;
+}
+
+.greybox .title {
+  height: 70px;
+  margin-bottom: 5%;
+}
+
 #index {
-  background: url(/img/bg-index.png) center center no-repeat;
+  background: url(/img/index-bg.png) center center no-repeat;
   background-size: 100%;
   color: white;
   text-align: center;
@@ -58,7 +69,6 @@ html *, body *{
   width: 70%;
 }
 
-
 @keyframes bounce {
   0% {
     bottom: 20px;
@@ -68,35 +78,18 @@ html *, body *{
   }
 }
 
-
-#service {
-  margin: 20px 0;
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.5); 
-}
-
-#service img {
-  width: 80px;
-  height: 80px;
-}
-
 #intro {
   /*background: none repeat scroll 0 0 #323539;*/
 }
 
 #contact {
-  background: url(/img/bg-contact.png) center center no-repeat;
+  background: url(/img/contact-bg.png) center center no-repeat;
   background-size: 100%;
 }
 
 #contact-box {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 5% 5% 10%;
-  border-bottom: 30px solid rgba(56, 184, 245, 0.6);
+  border-bottom: 30px solid rgba(56, 184, 245, 0.5);
   opacity: 0;
-  font-size: 20px;
   color: #FFF;
   text-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
 }
@@ -108,10 +101,6 @@ html *, body *{
   -webkit-transition: opacity 0.5s ease-in-out;
 }
 
-#contact-title {
-  height: 70px;
-  margin-bottom: 5%;
-}
 
 #contact-seperate-line {
   background-color: rgba(56, 184, 245, 0.6);
@@ -130,5 +119,45 @@ html *, body *{
   border: 0;
   padding: 10px;
   width: 85%;
+}
+
+#service {
+  background: url(/img/service-bg.png) center center no-repeat;
+  background-size: 100%;
+}
+
+#service-box {
+  border-bottom: 30px solid rgba(255, 239, 1, 0.5);
+  min-height: 400px;
+}
+
+.service-ability {
+  height: 15%;
+  position: absolute;
+}
+
+#service-ino {
+  top: 30%;
+  left: 46%;
+}
+
+#service-execu {
+  top: 48%;
+  left: 33%;
+}
+
+#service-evo {
+  top: 40%;
+  left: 65%;
+}
+
+#service-ac {
+  top: 64%;
+  left: 52%;
+}
+
+#service .title {
+  color: black;
+  text-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
 }
 
