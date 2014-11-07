@@ -11,81 +11,47 @@
     <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/pure/0.5.0/pure-min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+    <style>
+      #dream { background: url(/img/dream.jpg) 50%; }
+      #learning { background: url(/img/learning.jpg) 50%; }
+      #teamate { background: url(/img/teamate.jpg) 50%; }
+      #group { background: url(/img/group.jpg) 50%; }
+      #success { background: url(/img/success.jpg) 50%; }
+    </style>
+
+
   </head>
   <body>
     <div id="main">
-      <div class="section" id="index">
-        <img src="img/index-wave.png" id="index-wave"/>
-        <div id="index-title">
-          <p><img src="img/index-title.png" /></p>
-          <p><img src="img/index-subtitle.png" /></p>
-        </div>
-
-        <div id="index-more-box">
-          <a href="#service">
-            <p><img id="index-more" src="img/index-more-label.png"/></p>
-            <p class="index-more-arrow" ><img src="img/index-arrow-level1.png" /></p>
-            <p class="index-more-arrow" ><img src="img/index-arrow-level2.png" /></p>
-            <p class="index-more-arrow" ><img src="img/index-arrow-level3.png" /></p>
-          </a>
-        </div>
-      </div>
+      <div class="section" id="dream"></div>
+      <div class="section" id="learning"></div>
+      <div class="section" id="teamate"></div>
+      <div class="section" id="group"></div>
+      <div class="section" id="success"></div>
     </div>
 
-    <div class="section" id="service">
-      <div id="service-box" class="greybox">
-        <!--img class="title" src="img/service-title.png" /-->
-        <h1 class="title">我们崇尚:</h1>
-        <div>
-          <img class="service-ability" id="service-ino" src="/img/service-ino.png" />
-          <img class="service-ability" id="service-execu" src="/img/service-execu.png" />
-          <img class="service-ability" id="service-evo" src="/img/service-evo.png" />
-          <img class="service-ability" id="service-ac" src="/img/service-ac.png" />
-        </div>
-      </div>
-    </div>
 
-    <div class="section" id="contact">
-      <div id="contact-box" class="greybox">
-        <img class="title" src="img/contact-title.png" />
-        <div class="pure-g">
-          <div id="subscription" class="pure-u-1-2">
-            <form action="//lianjinqu.us9.list-manage.com/subscribe/post?u=c0593f0c39508dd81947aa1e2&id=d9193807ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <p>关注我们</p>
-              <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="邮箱地址" required />
-              <input type="hidden" name="b_c0593f0c39508dd81947aa1e2_d9193807ff" tabindex="-1" value="">
-              <p><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">订阅</button></p>
-            </form>
-          </div>
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
 
-          <div id="contact-detail" class="pure-u-1-2">
-            <p>微信公众号：连进去</p>
-            <p>微博：@连进去</p>
-            <p>Facebook：facebook.com/lianjinqu</p>
-            <p>Twitter：twitter.com/lianjinqu</p>
-            <p>邮箱：contact@lianjinqu.com</p>
-            <p>地址：北京市海淀区上地十街辉煌国际大厦（百度总部旁边）</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
-
-  <!-- This following line is needed in case of using the default easing option or when using another
+    <!-- This following line is needed in case of using the default easing option or when using another
      one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-  <!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
-  <script type="text/javascript" src="http://cdn.staticfile.org/jQuery-slimScroll/1.3.1/jquery.slimscroll.min.js"></script>
+    <!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+    <script type="text/javascript" src="http://cdn.staticfile.org/jQuery-slimScroll/1.3.1/jquery.slimscroll.min.js"></script>
 
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery-fullPage/1.7.5/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery-fullPage/1.7.5/jquery.fullPage.min.js"></script>
 
-  <script type="text/javascript" src="js/script.js"></script>
-
-
-</body>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+          $.fn.fullpage({
+            anchors: ['dream', 'learning', 'teamate', 'group', 'success'],
+            keyboardScrolling: true,
+            responsive: 1,
+            navigation: true,
+          });
+      });
+    </script>
+  </body>
 </html>
