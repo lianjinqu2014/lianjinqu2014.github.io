@@ -33,6 +33,7 @@ html {
 }
 
 #title img {
+  max-width: 250px;
   width: 50%;
   margin-bottom: 5px;
 }
@@ -80,9 +81,6 @@ html {
 #ability img:last-child {
   margin-top: 25px;
   margin-right: 0px;
-}
-
-#ability img:nth-child(even) {
 }
 
 #contact-title {
