@@ -34,22 +34,22 @@ html {
   margin-top: .1em;
 }
 
-#service-title {
-  width: 50%;
-  height: 30%;
-  margin-bottom: 20px;
-}
-
 #service {
-  font-weight: bold;
-  font-size: 150%;
-  background-color: rgba(0, 0, 0, 0.5);
   margin-left: -20px;
   margin-right: -20px;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#service-title {
+  width: 50%;
+  height: 20%;
+  margin-bottom: 20px;
 }
 
 #service .service-item {
+  font-weight: bold;
+  font-size: 150%;
   color: #1f8dd6;
   margin-bottom: 20px;
 }
