@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+}
+
+.section {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#section-dream { background-image: url(/img/dream.jpg); }
+#section-learning { background-image: url(/img/learning.jpg); }
+#section-teamate { background-image: url(/img/teamate.jpg); }
+#section-group { background-image: url(/img/group.jpg); }
+#section-success { background-image: url(/img/success.jpg); }
+
+#subscription, #contact {
+  color: #FFF;
+  text-shadow: 0 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+#subscription input {
+  width: 80%;
+  padding: 10px;
+}
+
+#subscription button{
+  color: white;
+  background-color: #38B8F5;
+  border: 0px;
+  padding: 10px;
+  width: 88%;
+  font-weight: bold;
+}
