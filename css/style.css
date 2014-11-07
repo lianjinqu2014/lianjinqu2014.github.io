@@ -3,6 +3,13 @@ html {
   color: white;
 }
 
+.shadow-box {
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
 .section {
   background-repeat: no-repeat;
   background-position: center center;
@@ -17,7 +24,7 @@ html {
 #section-dream { background-image: url(/img/dream.jpg); }
 #section-learning { background-image: url(/img/learning.jpg); }
 #section-teamate { background-image: url(/img/teamate.jpg); }
-#section-group { background-image: url(/img/group.jpg); }
+#section-partner { background-image: url(/img/partner.jpg); }
 #section-success { background-image: url(/img/success.jpg); }
 
 #title {
@@ -27,18 +34,12 @@ html {
 
 #title img {
   width: 50%;
+  margin-bottom: 5px;
 }
 
 #subtitle {
   color: white;
-  margin-top: .1em;
-}
-
-#service {
-  margin-left: -20px;
-  margin-right: -20px;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px;
 }
 
 #service-title {
@@ -47,15 +48,21 @@ html {
   margin-bottom: 20px;
 }
 
-#service .service-item {
+.service-item {
   font-weight: bold;
   font-size: 150%;
   color: #1f8dd6;
   margin-bottom: 20px;
 }
 
-#service .service-item.last {
+.service-item.last {
   margin-bottom: 0px;
+}
+
+#contact-title {
+  width: 150px;
+  height: 35px;
+  margin-bottom: 20px;
 }
 
 #subscription, #contact {
