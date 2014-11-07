@@ -72,6 +72,19 @@ html {
   margin: 5px 10px;
 }
 
+#ability img {
+  height: 50px;
+  margin-right: 7%;
+}
+
+#ability img:last-child {
+  margin-top: 25px;
+  margin-right: 0px;
+}
+
+#ability img:nth-child(even) {
+}
+
 #contact-title {
   width: 150px;
   height: 35px;
