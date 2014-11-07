@@ -63,6 +63,15 @@ html {
   margin-bottom: 0px;
 }
 
+#partner-title {
+  margin: 5px 5px 8px;
+}
+
+.partner-logo {
+  height: 35px;
+  margin: 5px;
+}
+
 #contact-title {
   width: 150px;
   height: 35px;
