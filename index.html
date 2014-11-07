@@ -9,17 +9,41 @@
 
     <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/jquery-fullPage/1.7.5/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/pure/0.5.0/pure-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <div id="main">
       <div class="section" id="section-dream">
         <div id="title">
+          <img src="/img/title.png" />
+          <h2 id="subtitle">服务大学生创业实战</h2>
         </div>
       </div>
-      <div class="section" id="section-learning"></div>
-      <div class="section" id="section-teamate"></div>
-      <div class="section" id="section-group"></div>
+
+      <div class="section" id="section-learning">
+        <h1 class="title">我们提供</h1>
+        <div class="pure-g" id="service">
+          <div class="pure-u-1 u-sm-1-2 u-xl-1-3 service-item">
+            <i class="fa fa-share-alt"></i>
+            高质量线上线下互动
+          </div>
+          <div class="pure-u-1 u-sm-1-2 u-xl-1-3 service-item">
+            <i class="fa fa-group"></i>
+            找牛人
+          </div>
+          <div class="pure-u-1 u-sm-1-2 u-xl-1-3 service-item">
+            <i class="fa fa-thumbs-up"></i>
+            快速融资
+          </div>
+          </div>
+      </div>
+
+      <div class="section" id="section-teamate">
+
+      </div>
+      <div class="section" id="section-group">
+      </div>
       <div class="section" id="section-success">
         <div class="pure-g">
           <div class="pure-u-1 pure-u-md-2-5" id="subscription">
@@ -60,7 +84,6 @@
           $('#main').fullpage({
 anchors: ['dream', 'learning', 'teamate', 'group', 'success'],
 keyboardScrolling: true,
-navigation: true,
 });
           });
     </script>

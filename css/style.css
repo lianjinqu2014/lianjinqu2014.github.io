@@ -1,5 +1,6 @@
 html {
   font-family: sans-serif;
+  color: white;
 }
 
 .section {
@@ -18,6 +19,30 @@ html {
 #section-teamate { background-image: url(/img/teamate.jpg); }
 #section-group { background-image: url(/img/group.jpg); }
 #section-success { background-image: url(/img/success.jpg); }
+
+#title {
+  text-shadow: 0 0px 15px rgba(255, 255, 255, 0.7);
+  text-align: right;
+}
+
+#title img {
+  width: 50%;
+}
+
+#subtitle {
+  color: white;
+  margin-top: .1em;
+}
+
+#service {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#service .service-item {
+  color: #1f8dd6;
+  margin-bottom: 20px;
+}
 
 #subscription, #contact {
   color: #FFF;
