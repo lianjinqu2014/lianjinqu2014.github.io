@@ -51,8 +51,12 @@ html {
 .service-item {
   font-weight: bold;
   font-size: 150%;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.service-item i {
   color: #1f8dd6;
-  margin-bottom: 20px;
 }
 
 .service-item.last {
