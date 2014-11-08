@@ -21,7 +21,7 @@ html {
   padding-left: 20px;
   padding-right: 20px;
 }
-#section-dream { background-image: url(/img/dream.jpg); }
+
 #section-learning { background-image: url(/img/learning.jpg); }
 #section-teamate { background-image: url(/img/teamate.jpg); }
 #section-partner { background-image: url(/img/partner.jpg); }
@@ -97,12 +97,9 @@ html {
   margin-bottom: 0px;
 }
 
-#partner-box {
-  margin-top: 50%;
-}
-
 #partner-title {
   margin: 5px 5px 8px;
+  height: 35px;
 }
 
 .partner-logo {
@@ -121,7 +118,7 @@ html {
 }
 
 #contact-box {
-  margin-top: 75%;
+  margin-top: 50%;
 }
 
 #contact-title {

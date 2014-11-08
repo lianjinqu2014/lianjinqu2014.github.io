@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#main').fullpage({
-    anchors: ['dream', 'learning', 'partner', 'success'],
+    anchors: ['index', 'quality', 'contact'],
     keyboardScrolling: true,
     css3: true,
   });
