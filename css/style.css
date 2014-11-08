@@ -46,10 +46,10 @@ html {
 
 
 #index-arrow {
-  -webkit-animation: bounce 0.5s ease 0s infinite alternate;
-  -moz-animation: bounce 0.5s ease 0s infinite alternate;
-  -o-animation: bounce 0.5s ease 0s infinite alternate;
-  animation: bounce 0.5s ease 0s infinite alternate;
+  -webkit-animation: bounce 0s ease 0.35s infinite alternate;
+  -moz-animation: bounce 0s ease 0.35s infinite alternate;
+  -o-animation: bounce 0s ease 0.35s infinite alternate;
+  animation: bounce 0s ease 0.35s infinite alternate;
   position: fixed;
   bottom: 20px;
   margin: 0 auto;
