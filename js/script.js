@@ -15,8 +15,8 @@ $(document).ready(function() {
     MsgImg: url + "/img/logo.png",
     TLImg: url + "/img/logo.png",
     url: url,
-    title: "连进去",
-    desc: "通过快速融资，免费找人，创投活动，服务大学生创业实战",
+    title: "连进去-服务大学生创业实战",
+    desc: "连进去：快速融资、免费找人、创投活动(www.LianJinqu.com)",
     callback: function(){}
   };
 
