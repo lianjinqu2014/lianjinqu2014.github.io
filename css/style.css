@@ -148,6 +148,7 @@ html * {
   padding: 10px 5px;
   margin-top: 10px;
   width: 95% !important;
+  border: 0px;
 }
 
 #subscription button{
