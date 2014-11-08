@@ -72,6 +72,9 @@ html {
   }
 }
 
+#service {
+  margin-top: 75%;
+}
 
 #service-title {
   width: 150px;
@@ -92,6 +95,10 @@ html {
 
 .service-item.last {
   margin-bottom: 0px;
+}
+
+#partner {
+  margin-top: 75%;
 }
 
 #partner-title {
