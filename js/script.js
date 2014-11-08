@@ -11,7 +11,6 @@ $(document).ready(function() {
   var url = "http://lianjinqu2014.github.io";
   var dataForWeixin={
     appId: "",
-    fakeid: "",
     MsgImg: url + "/img/logo.png",
     TLImg: url + "/img/logo.png",
     url: url,
@@ -22,10 +21,9 @@ $(document).ready(function() {
 
   (function(){
     var onBridgeReady=function(){
-    /*
        WeixinJSBridge.on('menu:share:appmessage', function(argv){
        WeixinJSBridge.invoke('sendAppMessage',{
-       "appid":dataForWeixin.appId,
+       "appid":dataForWeixin.appId ? dataForWeixin.appId : '',
        "img_url":dataForWeixin.MsgImg,
        "img_width":"120",
        "img_height":"120",
@@ -34,7 +32,6 @@ $(document).ready(function() {
        "title":dataForWeixin.title
        }, function(res){(dataForWeixin.callback)();});
        });
-       */
       WeixinJSBridge.on('menu:share:timeline', function(argv){
         (dataForWeixin.callback)();
         WeixinJSBridge.invoke('shareTimeline',{
