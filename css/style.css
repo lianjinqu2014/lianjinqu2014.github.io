@@ -37,7 +37,7 @@ html * {
 
 #title img {
   max-width: 250px;
-  width: 50%;
+  width: 40%;
   margin-bottom: 5px;
 }
 
@@ -94,7 +94,6 @@ html * {
 }
 
 .service-item {
-  font-weight: bold;
   font-size: 150%;
   margin-bottom: 15px;
   color: white;
