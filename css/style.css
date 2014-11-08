@@ -1,6 +1,10 @@
-html {
-  font-family: sans-serif;
+html * {
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif !important;
   color: white;
+}
+
+.fa {
+  font-family: FontAwesome !important;
 }
 
 .shadow-box {
@@ -82,7 +86,7 @@ html {
 }
 
 #service {
-  margin-top: 75%;
+  margin-top: 50%;
 }
 
 #service-title {
