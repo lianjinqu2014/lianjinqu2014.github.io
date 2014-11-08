@@ -15,7 +15,7 @@ $(document).ready(function() {
     TLImg: url + "/img/logo.png",
     url: url,
     title: "连进去",
-    desc: "服务大学生创业实战",
+    desc: "通过快速融资，免费找人，创投活动，服务大学生创业实战",
     callback: function(){}
   };
 
