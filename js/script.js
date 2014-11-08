@@ -15,7 +15,7 @@ $(document).ready(function() {
     MsgImg: url + "/img/logo.png",
     TLImg: url + "/img/logo.png",
     url: url,
-    title: "连进去-大学生创业实战",
+    title: "连进去 - 大学生创业实战",
     desc: "快速融资\n免费找人\n创投活动\nwww.lianjinqu.com",
     callback: function(){}
   };
