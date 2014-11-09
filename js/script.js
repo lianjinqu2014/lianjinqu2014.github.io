@@ -8,8 +8,7 @@ $(document).ready(function() {
     $.fn.fullpage.moveSectionDown();
   });
 
-  var url = "http://lianjinqu2014.github.io";
-  //var url = "http://www.lianjinqu.com";
+  var url = "http://www.lianjinqu.com";
   var dataForWeixin={
     appId: "",
     MsgImg: url + "/img/logo.png",
