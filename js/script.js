@@ -8,6 +8,10 @@ $(document).ready(function() {
     $.fn.fullpage.moveSectionDown();
   });
 
+  $('.more-arrow-backward').click(function() {
+    $.fn.fullpage.moveSectionUp();
+  });
+
   var url = "http://www.lianjinqu.com";
   var dataForWeixin={
     appId: "",
@@ -15,7 +19,7 @@ $(document).ready(function() {
     TLImg: url + "/img/logo.png",
     url: url,
     title: "连进去 - 大学生创业实战",
-    desc: "快速融资\n免费找人\n创投活动\nwww.lianjinqu.com",
+    desc: "高校活动\n加速孵化\n快速融资\nwww.lianjinqu.com",
     callback: function(){}
   };
 

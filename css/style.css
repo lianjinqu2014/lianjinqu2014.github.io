@@ -46,14 +46,14 @@ html * {
   margin: 0px;
 }
 
-.more-arrow {
+.more-arrow, .more-arrow-backward {
   -webkit-animation: bounce 0.5s infinite 0.5s alternate;
   -moz-animation: bounce 0.5s infinite 0.5s alternate;
   -o-animation: bounce 0.5s infinite 0.5s alternate;
   animation: bounce 0.5s infinite 0.5s alternate;
 
-  position: fixed;
-  bottom: 15px;
+  position: absolute;
+  bottom: 10px;
   margin: 0 auto;
   width: 100%;
   text-align: center;
@@ -61,30 +61,30 @@ html * {
   margin-right: -20px;
 }
 
-.more-arrow img {
+.more-arrow img, .more-arrow-backward img {
   width: 35px;
 }
 
 @-webkit-keyframes bounce {
   0% {
-    bottom: 15px;
+    bottom: 10px;
   }
   100% {
-    bottom: 20px;
+    bottom: 15px;
   }
 }
 
 @keyframes bounce {
   0% {
-    bottom: 20px;
+    bottom: 10px;
   }
   100% {
-    bottom: 25px;
+    bottom: 15px;
   }
 }
 
 #service {
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 #service-title {
@@ -108,7 +108,7 @@ html * {
 }
 
 #partner-box {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 #partner-title {
@@ -166,3 +166,10 @@ html * {
   width: 55px;
 }
 
+.flip {
+  -moz-transform:scaleY(-1);
+  -webkit-transform:scaleY(-1);
+  -o-transform:scaleY(-1);
+  transform:scaleY(-1);
+  filter:FlipV;
+}
