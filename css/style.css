@@ -1,5 +1,13 @@
-html * {
+html {
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif !important;
+  height: 100%;
+}
+
+
+body, #main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .fa {
@@ -23,6 +31,7 @@ html * {
   background-size: cover;
   padding-left: 20px;
   padding-right: 20px;
+  height: 100%;
 }
 
 #section-learning { background-image: url(/img/learning.jpg); }
@@ -33,6 +42,13 @@ html * {
 #title {
   text-shadow: 0 0px 15px rgba(255, 255, 255, 0.7);
   text-align: right;
+  margin-top: 100px;
+}
+
+@media all and (max-width: 768px) {
+  #title {
+    margin-top: 10px;
+  }
 }
 
 #title img {
@@ -84,7 +100,7 @@ html * {
 }
 
 #service {
-  margin-top: 180px;
+  margin-top: 50px;
 }
 
 #service-title {
@@ -97,6 +113,7 @@ html * {
   font-size: 150%;
   margin-bottom: 15px;
   color: white;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif !important;
 }
 
 .service-item i {
@@ -108,7 +125,7 @@ html * {
 }
 
 #partner-box {
-  margin-top: 130px;
+  margin-top: 50px;
 }
 
 #partner-title {
@@ -116,8 +133,8 @@ html * {
 }
 
 #partner-title img {
-  height: 25px;
-  width: 110px;
+  height: 20px;
+  width: 90px;
 }
 
 .partner-logo {
@@ -137,6 +154,29 @@ html * {
 
 #contact-box {
   padding-top: 0px;
+}
+
+
+@media all and (max-width: 768px) {
+  #service {
+    margin-top: 10px;
+  }
+
+  .service-item {
+    font-size: 100%;
+  }
+
+  #ability img {
+    height: 45px;
+  }
+
+  #partner-box {
+    margin-top: 20px;
+  }
+
+  .partner-logo {
+    height: 20px;
+  }
 }
 
 #contact-title {
