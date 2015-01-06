@@ -1,7 +1,6 @@
-//$(document).ready(function() {
-  /*
+$(document).ready(function() {
   $('#main').fullpage({
-    anchors: ['index'],
+    anchors: ['index', 'quality', 'contact'],
     keyboardScrolling: true,
   });
 
@@ -12,7 +11,6 @@
   $('.more-arrow-backward').click(function() {
     $.fn.fullpage.moveSectionUp();
   });
-  */
 
   var url = "http://www.lianjinqu.com";
   var dataForWeixin={
@@ -73,4 +71,4 @@
     document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
     document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
   }
-//});
+});
